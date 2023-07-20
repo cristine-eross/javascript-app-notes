@@ -1,0 +1,17 @@
+A few ideas for this notes app:
+
+I chose to create two very similar cards for both the input field and the saved notes.
+When writing the functions, we will actually need 4 button onclick event functions:
+
+-initial save function: the save button on the input type of card does not only set a new attribute for the textarea (readonly) but it creates a new card into the container, gives that the input value and saves the data to local storage; we also need to empty the textarea after that
+-additional save function: after enabling the textarea and after changing the content, this should overwrite the previously saved data to the new one, give that to its container and set readonly attribute again
+-edit function: removes the readonly attribute from the textarea
+-delete function: removes the card div and its content from local storage
+
+In order to make these functions work, what we need to grab from the html are:
+    init-save-btn
+    add-save-btn
+    edit-btn
+    del-btn
+    card div
+    textarea

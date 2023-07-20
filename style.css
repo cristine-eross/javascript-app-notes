@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("./background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+
+p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.container {
+    width: 90%;
+    min-height: 100vh;
+    height: auto;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: rgba(210, 215, 211, 0.5);
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(149, 165, 166, 0.9);
+}
+
+.new-card {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(149, 165, 166, 0.9);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+button {
+    background: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+button:hover {
+    border: 1px solid black;
+}
+
+.right {
+    margin-right: 25px;
+}
+
+.left {
+    margin-left: 25px;
+}
+
+.note-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    overflow: hidden;
+    font-size: 22px;
+    font-weight: 100;
+    color: black;
+    padding: 20px;
+    width: 80%;
+    background-color: white;
+}
+
+#savedNote {
+    overflow: hidden;
+    font-size: 22px;
+    font-weight: 100;
+    color: black;
+    padding: 20px;
+    width: 80%;
+    background-color: white;
+}
+
